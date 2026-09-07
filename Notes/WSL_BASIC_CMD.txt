@@ -1,0 +1,32 @@
+--WSL BASICS--
+ls -> list all files
+cd -> change directory (cd <filepath>)
+ |
+ |-> using cd .. takes you one step back in the path
+ |
+ |-> you can combine it with path address to specify that you want to go one step back then switch into a different directory (eg: cd ../temp_folder2 -> this will take u to temp_folder 2 assuming that u were in another directory while running the command)
+mkdir -> creates folder (mkdir <foldername>)
+vim (or) vi -> creates any file (vi <filename>.<extension>)
+ |
+ |-> i -> enter insert mode
+ |
+ |-> Esc key -> exit insert mode
+ |
+ |-> :wq -> save file and quit
+ |-> :q! -> quit without saving
+cp -> copy file to new directory ( cp <filename> <path>)
+mv -> move file to new directory (mv <filename> <path>)
+rm -> removes file ( rm <filename>)
+ |
+ |-> rm -i -> ask before removing
+ |
+ |-> rm -ri -> remove folder and ask for every deletion
+cat -> reads file (cat <filename>)
+
+
+
+#EXTRA
+echo $0 -> gives shell
+echo "text" >> <filename> -> append text to file
+echo "text" > <filename> -> overwrite file with text
+man -> gives manual of any command (man cat)
